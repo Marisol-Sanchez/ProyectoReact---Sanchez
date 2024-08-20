@@ -14,11 +14,7 @@ function App() {
     <>
     
         <NavBar/>    
-
-     
         <ItemListContainer/>
-        
-
         <Footer/>
     
     </>

@@ -13,10 +13,10 @@ const NavBar = () => {
             <div className="relative">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-white font-sm hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none"
-              >
-                CATEGORIAS
-              </button>
+                className="text-white font-sm
+                 hover:bg-gray-700
+                 hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none"
+                >CATEGORIAS </button>
               {isMenuOpen && (
                 <div className="origin-top-right absolute right-0 mt-2 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                   <div className="py-1">
