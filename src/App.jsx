@@ -6,15 +6,21 @@ import CartWidget from './components/CartWidget'
 import NavBar from './components/Navbar'
 import ItemListContainer from './components/ItemListContainer'
 import Footer from './components/Footer'
+//import { BrowserRouter, Router, Route, Routes } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
+    
         <NavBar/>    
-        <ItemListContainer/>      
+
+     
+        <ItemListContainer/>
+        
+
         <Footer/>
-  
+    
     </>
   )
 }
